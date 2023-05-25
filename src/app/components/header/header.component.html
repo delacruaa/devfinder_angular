@@ -1,0 +1,10 @@
+<header class="header">
+    <div class="logo">devfinder</div>
+    <div  class="theme__switcher" (click)="changeTheme()">
+      <p>
+        {{textColor}}
+      </p>
+      <img *ngIf="!isDark" src="assets/icon-moon.svg" alt="icon_theme">
+      <img *ngIf="isDark" src="assets/icon-sun.svg" alt="icon_theme">
+    </div>
+</header>

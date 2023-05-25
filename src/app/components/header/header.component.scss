@@ -1,0 +1,24 @@
+
+
+.header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    .logo {
+        color: var(--text-color);
+        font-size: 24px;
+        line-height: 1.5;
+        font-weight: 700;
+    }
+    .theme__switcher {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        p {
+            color: var(--text-color);
+        }
+        
+    }
+   
+}

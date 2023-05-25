@@ -1,0 +1,11 @@
+<div class="wrapper">
+    <form class="form" (submit)="fetchData()">
+        <img src="assets/icon-search.svg" alt="search" class="img">
+        <input [(ngModel)]="userName"  name="user" type="text" class="input"  (input)="clearError()" placeholder="Search...">
+        <button class="btn">Search</button>
+    </form>
+    
+</div>
+<div class="error__message">
+    {{notEmpty}}
+</div>
